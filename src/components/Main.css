@@ -1,0 +1,32 @@
+.outer {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    /* justify-content: flex-start; */
+    /*align items in first column*/
+
+    justify-content: center;
+    /*align items in second column */
+
+    /* justify-content: flex-end; */
+    /*align items in third column*/
+
+    background-color: aquamarine;
+  }
+
+  .inner {
+    display: flex;
+    height: 100px;
+    width: 100px;
+
+    /* align-self: flex-start; */
+    /*align items in first row*/
+
+    align-self: center;
+    /*align items in second row */
+
+    /* align-self: flex-end;  */
+    /*align items in third row*/
+
+    background-color: yellow;
+  }
