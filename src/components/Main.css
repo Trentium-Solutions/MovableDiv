@@ -1,7 +1,10 @@
 .outer {
     display: flex;
-    height: 400px;
-    width: 400px;
+    /* position: absolute; */
+    height: 100%;
+    /* width: 100%; */
+    flex: 1;
+
     /* justify-content: flex-start; */
     /*align items in first column*/
 
@@ -28,5 +31,5 @@
     /* align-self: flex-end;  */
     /*align items in third row*/
 
-    background-color: yellow;
+    background-color: red;
   }
